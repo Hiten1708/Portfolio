@@ -4,9 +4,16 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+import { useEffect } from "react";
+import ReactGA from "react-ga";
 
 function Home() {
+
+  useEffect(() => {
+    
+    ReactGA.pageview(window.location.pathname)
+  }, []);
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
