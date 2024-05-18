@@ -23,7 +23,7 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
-         <div>Resume Removed for privacy reasons, please contact me on <<a href="http://www.linkedin.com/in/hitenkumar-patel">LinkedIn<a/></div>
+         <div>Resume Removed for privacy reasons, please contact me on <a href="http://www.linkedin.com/in/hitenkumar-patel">LinkedIn</a></div>
         </Row>
       </Container>
     </div>
